@@ -2,7 +2,7 @@
 
 # A reasonable Emacs config
 
-This is my emacs configuration tree, continually used and tweaked
+This is my emacs configuration tree based on [purcell's](https://github.com/purcell/emacs.d), continually used and tweaked
 since 2000, and it may be a good starting point for other Emacs
 users, especially those who are web developers. These days it's
 somewhat geared towards OS X, but it is known to also work on Linux
@@ -52,7 +52,7 @@ To install, clone this repo to `~/.emacs.d`, i.e. ensure that the
 `init.el` contained in this repo ends up at `~/.emacs.d/init.el`:
 
 ```
-git clone https://github.com/purcell/emacs.d.git ~/.emacs.d
+git clone https://github.com/zhoupeikun/emacs.d.git
 ```
 
 Upon starting up Emacs for the first time, further third-party
@@ -110,10 +110,8 @@ versions (see "Updates" above). If you still experience problems, go ahead and
 
 <hr>
 
-[![](http://api.coderwall.com/purcell/endorsecount.png)](http://coderwall.com/purcell)
+[![](http://www.linkedin.com/img/webpromo/btn_liprofile_blue_80x15.png)](https://www.linkedin.com/in/peikun-zhou-26a43565?trk=hp-identity-name)
 
-[![](http://www.linkedin.com/img/webpromo/btn_liprofile_blue_80x15.png)](http://uk.linkedin.com/in/stevepurcell)
+[peikun's blog](http://izpk.blogspot.fr/)
 
-[sanityinc.com](http://www.sanityinc.com/)
 
-[@sanityinc](https://twitter.com/)

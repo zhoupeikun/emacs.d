@@ -99,6 +99,11 @@
 ;;(require 'init-rails)
 (require 'init-sql)
 
+;;OCaml
+(require 'init-ocaml)
+
+(require 'init-local)
+
 (require 'init-paredit)
 (require 'init-lisp)
 (require 'init-slime)

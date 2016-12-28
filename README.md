@@ -2,11 +2,9 @@
 
 # A reasonable Emacs config
 
-This is my emacs configuration tree based on [purcell's](https://github.com/purcell/emacs.d), continually used and tweaked
-since 2000, and it may be a good starting point for other Emacs
-users, especially those who are web developers. These days it's
-somewhat geared towards OS X, but it is known to also work on Linux
-and Windows.
+This is my emacs configuration tree based on [purcell's](https://github.com/purcell/emacs.d), whose origin version has been continually used and tweaked
+since 2000.
+I have changed some settings since 2015, and my version is good for Ubuntu or Mac OS.
 
 Emacs itself comes with support for many programming languages. This
 config adds improved defaults and extended support for the following:
@@ -23,6 +21,7 @@ config adds improved defaults and extended support for the following:
 * Erlang
 * Common Lisp (with Slime)
 * OCaml
+* Prolog/Perl
 
 In particular, there's a nice config for *tab autocompletion*, and
 `flycheck` is used to immediately highlight syntax errors in Ruby, HAML,
@@ -114,5 +113,3 @@ versions (see "Updates" above). If you still experience problems, go ahead and
 [![](http://www.linkedin.com/img/webpromo/btn_liprofile_blue_80x15.png)](https://www.linkedin.com/in/peikun-zhou-26a43565?trk=hp-identity-name)
 
 [peikun's blog](http://izpk.blogspot.fr/)
-
-

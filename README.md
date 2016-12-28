@@ -22,6 +22,7 @@ config adds improved defaults and extended support for the following:
 * Elm
 * Erlang
 * Common Lisp (with Slime)
+* OCaml
 
 In particular, there's a nice config for *tab autocompletion*, and
 `flycheck` is used to immediately highlight syntax errors in Ruby, HAML,
@@ -52,7 +53,7 @@ To install, clone this repo to `~/.emacs.d`, i.e. ensure that the
 `init.el` contained in this repo ends up at `~/.emacs.d/init.el`:
 
 ```
-git clone https://github.com/zhoupeikun/emacs.d.git
+git clone https://github.com/zhoupeikun/emacs.d.git ~/.emacs.d
 ```
 
 Upon starting up Emacs for the first time, further third-party

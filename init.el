@@ -37,7 +37,8 @@
 
 ;;----------------------------------------------------------------------------
 ;; Allow users to provide an optional "init-preload-local.el"
-;;----------------------------------------------------------------------------(require 'init-preload-local nil t)
+;;----------------------------------------------------------------------------
+(require 'init-preload-local nil t)
 
 ;;----------------------------------------------------------------------------
 ;; Load configs for specific features and modes
@@ -45,7 +46,7 @@
 
 ;;(require-package 'wgrep)
 ;;(require-package 'project-local-variables)
-;;(require-package 'diminish)
+(require-package 'diminish)
 ;;(require-package 'scratch)
 ;;(require-package 'mwe-log-commands)
 
@@ -76,8 +77,8 @@
 
 ;;(require 'init-vc)
 ;;(require 'init-darcs)
-(require 'init-git)
-(require 'init-github)
+;;(require 'init-git)
+;;(require 'init-github)
 
 (require 'init-compile)
 ;;(require 'init-crontab)
@@ -113,8 +114,8 @@
   )
 ;;(require 'init-common-lisp)
 
-;; (when *spell-check-support-enabled*
-;;   (require 'init-spelling))
+(when *spell-check-support-enabled*
+  (require 'init-spelling))
 
 ;;(require 'init-misc)
 

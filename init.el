@@ -128,9 +128,9 @@
 ;;(require-package 'htmlize)
 ;;(require-package 'dsvn)
 
-;; (when *is-a-mac*
-;;   (require-package 'osx-location))
-;; (require-package 'regex-tool)
+(when *is-a-mac*
+  require-package 'osx-location)
+(require-package 'regex-tool)
 
 ;;----------------------------------------------------------------------------
 ;; Allow access from emacsclient
@@ -139,6 +139,11 @@
 ;; (unless (server-running-p)
 ;;   (server-start)
 ;;   )
+
+;;----------------------------------------------------------------------------
+;; Prolog
+;;----------------------------------------------------------------------------
+;;(require 'init-prolog)
 
 
 ;;----------------------------------------------------------------------------

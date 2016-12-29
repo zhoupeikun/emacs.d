@@ -20,7 +20,7 @@
 ;;----------------------------------------------------------------------------
 (defconst sanityinc/initial-gc-cons-threshold gc-cons-threshold
   "Initial value of `gc-cons-threshold' at start-up time.")
-(setq gc-cons-threshold (* 128 1024 1024))
+(setq gc-cons-threshold (* 256 1920 1080))
 (add-hook 'after-init-hook
           (lambda () (setq gc-cons-threshold sanityinc/initial-gc-cons-threshold)))
 
@@ -46,7 +46,7 @@
 
 ;;(require-package 'wgrep)
 ;;(require-package 'project-local-variables)
-(require-package 'diminish)
+;;(require-package 'diminish)
 ;;(require-package 'scratch)
 ;;(require-package 'mwe-log-commands)
 
@@ -128,9 +128,8 @@
 ;;(require-package 'htmlize)
 ;;(require-package 'dsvn)
 
-(when *is-a-mac*
-  require-package 'osx-location)
-(require-package 'regex-tool)
+;;(when *is-a-mac*  require-package 'osx-location)
+;;(require-package 'regex-tool)
 
 ;;----------------------------------------------------------------------------
 ;; Allow access from emacsclient
